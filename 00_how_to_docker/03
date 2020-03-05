@@ -1,0 +1,13 @@
+#Define the variables needed by your virtual machine Char in the general env of your
+#terminal, so that you can run the docker ps command without errors. You have
+#to fix all four environment variables with one command, and you are not allowed
+#to use your shell’s builtin to set these variables by hand.
+
+eval $(docker-machine env Char)
+
+#https://docs.docker.com/machine/reference/env/
+#
+#You can't run 'docker ps' on default (docker works on linux)
+#So we build a vm to run our docker commands
+#eval imports the 'env' variables from out vm to be able to run
+#'docker' commands directly from the mac terminal
