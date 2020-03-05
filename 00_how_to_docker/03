@@ -11,3 +11,5 @@ eval $(docker-machine env Char)
 #So we build a vm to run our docker commands
 #eval imports the 'env' variables from out vm to be able to run
 #'docker' commands directly from the mac terminal
+#
+#eval $(docker-machine env -u)
