@@ -1,1 +1,5 @@
 #Look up the spawning-pool container’s logs in real time without running its shell.
+
+docker logs spawning-pool
+
+#try flags --details or -t (timestamps) or -f (follow)
