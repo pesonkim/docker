@@ -6,7 +6,7 @@
 #    By: kpesonen <marvin@42.fr>                    +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2020/03/06 18:05:18 by kpesonen          #+#    #+#              #
-#    Updated: 2020/03/06 21:01:28 by kpesonen         ###   ########.fr        #
+#    Updated: 2020/03/07 12:39:53 by kpesonen         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -44,8 +44,13 @@ ONBUILD RUN rake db:seed
 #ONBUILD: execute commands after the current Dockerfile completes (instructions for the next)
 #bundle install: install the current environment (app dir) to the system
 
+#BUILDING IMAGE
 #docker build -t ft-rails:on-build .
 #continue in the child dir
+#docker build -t ex02.
+#docker run -it --rm -p 3000:3000 ex02
+#docker-machine ip Char
+#visit <Char ip>:3000 on browser to confirm
 
 #CREATING A BLANK RAILS APP
 #docker run -it --rm -v $PWD/app:/app -p 3000:3000 ruby:2.6.2 sh
