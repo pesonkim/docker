@@ -6,7 +6,7 @@
 #    By: kpesonen <marvin@42.fr>                    +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2020/03/06 18:05:18 by kpesonen          #+#    #+#              #
-#    Updated: 2020/03/07 12:39:53 by kpesonen         ###   ########.fr        #
+#    Updated: 2020/03/07 21:23:26 by kpesonen         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -47,7 +47,7 @@ ONBUILD RUN rake db:seed
 #BUILDING IMAGE
 #docker build -t ft-rails:on-build .
 #continue in the child dir
-#docker build -t ex02.
+#docker build -t ex02 .
 #docker run -it --rm -p 3000:3000 ex02
 #docker-machine ip Char
 #visit <Char ip>:3000 on browser to confirm
